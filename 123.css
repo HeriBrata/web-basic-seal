@@ -28,7 +28,7 @@ text-align: center;
 
 }
 .link:hover{
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
   color: blue;
   text-decoration: underline;
