@@ -1,0 +1,47 @@
+.Photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+}
+  .Photo:hover {
+    width: 400;
+  }
+
+.Bold{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Pointer{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(94, 76, 53, 0.747);
+  text-align: center;
+}
+.link{
+text-align: center;
+
+}
+.link:hover{
+  font-size: 25px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.link:active{
+color: #3e8e41;
+}
+.tulisan{
+font-family: 'arial';
+text-align: center;
+text-justify: inter-word;
+}
+.titik{
+list-style-position: inside;
+text-align: center;
+}
