@@ -1,3 +1,7 @@
+body{
+background-color: rgb(96, 151, 112);
+}
+
 .Photo{
   display: block;
   margin-left: auto;
@@ -14,14 +18,15 @@
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  color: brown;
+  color: rgb(179, 15, 15);
   font-family: 'Courier New', Courier, monospace;
 }
 .Pointer{
   font-weight: bold;
   font-size: 20px;
+  
   color: rgba(94, 76, 53, 0.747);
-  text-align: center;
+  
 }
 .link{
 text-align: center;
@@ -45,3 +50,7 @@ text-justify: inter-word;
 list-style-position: inside;
 text-align: center;
 }
+.wrapper {
+  text-align: center;
+}
+
