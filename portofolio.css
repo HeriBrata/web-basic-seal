@@ -1,6 +1,64 @@
 body{
-  background-color: aqua;
+background-color: rgb(96, 151, 112);
 }
+
+.Photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+}
+  .Photo:hover {
+    width: 270;
+  }
+
+.Bold{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(179, 15, 15);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.link{
+text-align: center;
+
+}
+.link:hover{
+  font-size: 20px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.link:active{
+color: #3e8e41;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border:"3";
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tulisan{
+font-family: 'arial';
+text-align: center;
+text-justify: inter-word;
+}
+.titik{
+list-style-position: inside;
+text-align: center;
+}
+.wrapper {
+  text-align: center;
+}
+
 .judul{
   font-size: 25px;
   font-weight: bold;
@@ -18,3 +76,4 @@ body{
 .img:hover{
   width: 230;
 }
+
