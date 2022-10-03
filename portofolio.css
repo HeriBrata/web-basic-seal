@@ -13,7 +13,29 @@ background-color: rgb(96, 151, 112);
   .Photo:hover {
     width: 270;
   }
-
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 .Bold{
   font-weight: bold;
   font-size: 30px;
@@ -33,7 +55,7 @@ text-align: center;
   text-decoration: underline;
 }
 .link:active{
-color: #3e8e41;
+  color: #3e8e41;
 }
 table {
   margin-left: auto;
@@ -47,13 +69,13 @@ table, th, td {
 }
 
 .tulisan{
-font-family: 'arial';
-text-align: center;
-text-justify: inter-word;
+  font-family: 'arial';
+  text-align: center;
+  text-justify: inter-word;
 }
 .titik{
-list-style-position: inside;
-text-align: center;
+  list-style-position: inside;
+  text-align: center;
 }
 .wrapper {
   text-align: center;
@@ -75,5 +97,8 @@ text-align: center;
 }
 .img:hover{
   width: 230;
+}
+.akhir{
+text-align: center;
 }
 
