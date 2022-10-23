@@ -1,104 +1,52 @@
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> ini biodata </title>
-  <P class="judul"> Biodata </P>
-  <style>
-    body{
-      background-color: rgb(98, 230, 230);
-    }
-    .judul{
-      font-size: 25px;
-      font-weight: bold;
-      margin: 0;
-      text-align: center;
-    }
-    .Photo{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 250px;
-      height: 300px;
-      cursor: pointer;
-    }
-      .Photo:hover {
-        width: 270;
-      }
-    .tulisan{
-      font-family: 'arial';
-      text-align: center;
-      text-justify: inter-word;
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #111;
-    }
-    .wrapper {
-      text-align: center;
-    }
-    
-    table {
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .akhir{
-      text-align: center;
-      }
-
-
-    </style>
+ 
+  <link rel="stylesheet" href="/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+  <ul class="nav justify-content-center">
+    <li><a href="Portofolio.html">Portofolio</a></li>
+  </ul>
 </head>
 <body>
-  <ul>
-    <li><a href="">Biodata</a></li>
-    <li><a href="Portofolio.html">Portofolio</a></li>
-</ul>
-  <img class="Photo" src="/195030407111055 sk.png">
-  <p class="tulisan"> Nama saya heri wisnu Brata. bisa dipanggil heri, umur saya 21 tahun. Saya berkuliah di Universitas Brawijaya malang jurusan perpajan, <br>saya mempunyai Hobi bermain game dan saya senang mencoba hal yang baru.</p>
-  <table border="2">
-    <tr>
-      <th colspan="3"> Personal Skill</td>
-    <tr>
-        <td> Microsoft office </td>
-        <td> calculation</td>
-        <td> problem solving</td>
-    </tr>
-    </table>
+  <div>
+    <img class="Photo" src="/195030407111055.png">
+  </div>
+    <p class="tulisan"> Nama saya heri wisnu Brata. bisa dipanggil heri, umur saya 21 tahun. Saya berkuliah di Universitas Brawijaya malang jurusan perpajan, <br>saya mempunyai Hobi bermain game dan saya senang mencoba hal yang baru.</p>
+
+    <P class="SKILL"> SKILL</P>
+    <div class="card-group">
+      <div class="card">
+        <img src="/Income-Tax-Accounting.jpg" class="card-img-top" alt="Tax accounting">
+        <div class="card-body">
+          <h5>TAX</h5>
+          <p>Menghitung pajak PPH 21, PPN, PPH pasal 4 ayat 2, PBB, dll.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/Pelatihan-Basic-Accounting-dan-Analisa-Penyusunan-Laporan-Keuangan.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5>accounting</h5>
+          <p>membuat Buku besar beserta jurnal dll .</p>
+ 
+        </div>
+      </div>
+      <div class="card">
+        <img src="/download.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5>Microsoft office</h5>
+          <p>Word, excel, PPT.</p>
+ 
+        </div>
+      </div>
+    </div>
   
     <br>
   
-    <table border="2">
-      <tr>
-      <th colspan="4"> Riwayat pendidikan </td>
-    </tr>
-        <tr>
-          <td> SD pejaten timur 05</td>
-          <td> SMP  107 Jakarta </td>
-          <td> SMA 49 jakarta</td>
-          <td>Univ. Brawijaya</td>
-        </tr>
-  </table>
-  <div class="akhir">
-    <p"> untuk Melihat Portofolio saya</p>
-    <a href="Portofolio.html"> Portofolio</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
   </div>
 </body>
 </html>
